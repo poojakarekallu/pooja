@@ -7,6 +7,6 @@ try:
         raise CustomException
     else:
         print("x is not 20")
-except CustomException as err:
+except CustomException:
     print("exception occured")
 #exception occured
