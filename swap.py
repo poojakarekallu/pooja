@@ -9,7 +9,8 @@ if a>b and a>c:
         c=temp
     else:
         temp=a
-        a=c
+        a=b
+        b=c
         c=temp
 elif b>a and b>c:
     if a<c:
@@ -22,4 +23,8 @@ elif b>a and b>c:
         a=c
         c=temp
 elif c>a and c>b:
-    if 
+    if a>b:
+        temp=b
+        b=a
+        a=temp
+print(a,b,c)
