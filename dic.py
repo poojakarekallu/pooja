@@ -1,0 +1,9 @@
+mydict={
+    "name":"pooja",
+    "age":24,
+    "occupation":"student"
+}
+print(type(mydict))
+print(mydict["name"])#acessing
+mydict["name"]="roopa"
+print(mydict["name"])
