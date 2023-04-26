@@ -13,8 +13,9 @@ class Library:
             if key==authorName:
                 print(author_book[key])
     def sortBooksInTopologicalOrder():
-        book.sort()
-        print(book)
+        book_copy=[]
+        for books in self.book:
+            book_copy.append(books)
     def getAllSubcribers():
         pass
     def getAllEarnings():
